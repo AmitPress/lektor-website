@@ -14,3 +14,9 @@ enabled = yes
 name = Github pages on repo
 target = ghpages+https://lektor/_deployed-lektor-website
 default = no
+
+[servers.ghpages-website]
+enabled = yes
+name = Github pages on lektor-website repo
+target = ghpages://lektor/lektor-website
+default = no
